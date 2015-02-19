@@ -4,6 +4,9 @@ namespace Respect\Validation\Rules;
 
 use Respect\Validation\Result;
 
+/**
+ * Negates any rule.
+ */
 class Not extends AbstractProxy
 {
     /**
